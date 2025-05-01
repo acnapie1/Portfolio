@@ -1,0 +1,226 @@
+/* CSS REST */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Ledger&family=Vast+Shadow&display=swap');
+:root{
+    --dk-purple: #3F0840;
+    --teal: #3A758C;
+    --lavender: #CEB3F2;
+    --back-purple: #200726;
+    --cream: #FFFAF0;
+    --gray: #6E6E88;
+}
+
+header{
+    background-color: var(--gray);
+    padding: 2rem 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+header li{
+    display: inline;
+    color: var(--black-purple);
+    font-size: 1.5em;
+    padding: 0 1rem;
+}
+header ul{
+    text-align: right;
+    margin: 0;
+}
+header li a:link, header li a:visited, header li a:active{
+    text-decoration: none;
+    color: var(--back-purple);
+}
+header a:hover{
+    text-decoration: none;
+    color: var(--back-purple);
+    background: var(--teal);
+    padding: .5rem;
+    box-shadow: 5px 3px 5px var(--back-purple);
+}
+header h1{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Vast Shadow", serif;
+    font-size: 3rem;
+    color: var(--back-purple);
+}
+p{
+    font-family: "Hubot Sans", sans-serif;
+    font-size: 20px;
+}
+h3{
+    font-family: "Ledger", serif;
+    font-size: 2rem;
+}
+h4{
+    font-family: "Ledger", serif;
+    font-size: 1.5rem;
+}
+.works_page main{
+   color: var(--back-purple);
+   background-color: var(--cream);
+}
+#websites{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 1rem;
+}
+
+#websites p{
+    margin-bottom: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+#websites img{
+    display: block;
+    margin: auto;
+
+}
+.works_page h3{
+     margin: 1rem 0;
+}
+.works_page ul{
+    font-family: "Hubot Sans", sans-serif;
+    font-size: 20px;
+    list-style-type: square;
+    margin-top: 1rem;
+    line-height: 4rem;
+    margin-left: 1.5rem;
+}
+.works_page a {
+    box-shadow: inset 0 0 0 0 var(--dk-purple);
+    color: var(--dk-purple);
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    box-shadow: inset 200px 0 0 0 var(--dk-purple);
+    color: var(--cream);
+  }
+
+  #indesign{
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 1rem;
+        text-align: center;
+    }
+  #indesign img{
+    display: block;
+    margin: auto;
+  }
+  #indesign p{
+    text-align: center;
+    margin: 100px 0 50px 0;
+  }
+
+  .words{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #illustrator{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  #illustrator p{
+    text-align: center;
+    margin: 50px 0 50px 0;
+  }
+
+  #illustrator img{
+    display: block;
+    margin: auto;
+  }
+
+  #premier{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  footer{
+    background-color: var(--gray);
+    padding: 2rem;
+  }
+
+  #shopify{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  #shopify h4{
+    margin-bottom: 1rem;
+  }
+
+  #shopify img{
+    margin-bottom: 1rem;
+  }
+
+  #art{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  #art h4{
+    margin-bottom: 1rem;
+  }
