@@ -109,11 +109,15 @@ h3{
     font-family: "Ledger", serif;
     font-size: 2rem;
 }
+h2{
+  font-family: "Ledger", serif;
+    font-size: 3rem;
+}
 h4{
     font-family: "Ledger", serif;
     font-size: 1.5rem;
 }
-.works_page main{
+.works_page main, .about_page main, .home_page main{
    color: var(--back-purple);
    background-color: var(--cream);
 }
@@ -254,6 +258,41 @@ h4{
   img{
     max-width: 100%;
     height: auto;
+  }
+  .about_page h2, .about_page h3, .about_page h4{
+    text-align: center;
+    padding: .5rem;
+ 
+  }
+
+  #my_skills ul{
+    font-family: "Hubot Sans", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  #my_skills li{
+    padding-top: .5rem;
+  }
+  #intro p{
+    margin: 1rem 3rem;
+  }
+  #my_skills{
+    background-color: var(--gray);
+    color: var(--cream);
+  }
+  #awards{
+    background-color: var(--cream);
+  }
+  #awards ul{
+    font-family: "Hubot Sans", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 3rem;
+
+  }
+  #awards li{
+    padding-top: .5rem;
   }
 
   @media screen and (min-width: 900px){
