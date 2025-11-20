@@ -50,7 +50,7 @@ table {
 
 @import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Ledger&family=Vast+Shadow&display=swap');
 :root{
-    --dk-purple: #3F0840;
+    --dk-purple: #4E3473;
     --teal: #3A758C;
     --lavender: #CEB3F2;
     --back-purple: #200726;
@@ -280,13 +280,49 @@ h4{
   #my_skills li{
     padding-top: .5rem;
   }
+
+  #intro{
+    padding-top: 1rem;
+  }
+
+
   #intro p{
-    margin: 1rem 3rem;
+    margin: 1rem auto;
+    width: 1000px;
+    padding-bottom: 3rem;
+    line-height: 30px;
   }
   #my_skills{
-    background-color: var(--gray);
+    background-image: url("Images/flowers.png");
+    background-size: cover;
     color: var(--cream);
+    padding-bottom: 3rem;
   }
+
+  #my_skills h3{
+    color: var(--back-purple);
+  }
+
+  #my_skills ul{
+      background-color: var(--dk-purple);
+      width: 15rem;
+      margin: auto;
+      padding-bottom: 1rem;
+      border-radius: 20px;
+    }
+
+    #my_skills h4{
+      width: 15rem;
+      margin: auto;
+      color: var(--back-purple);
+      font-weight: bold;
+      padding-top: 1rem;
+    }
+
+  #my_skills li{
+        line-height: 30px;
+      }
+  
   #awards{
     background-color: var(--cream);
   }
