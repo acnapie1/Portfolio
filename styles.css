@@ -55,7 +55,7 @@ table {
     --lavender: #CEB3F2;
     --back-purple: #200726;
     --cream: #FFFAF0;
-    --gray: #6E6E88;
+    --gray: #CDCCD9;
 }
 
 header{
@@ -83,14 +83,16 @@ header ul{
 header li a:link, header li a:visited, header li a:active{
     text-decoration: none;
     color: var(--back-purple);
+
 }
-header a:hover{
-    text-decoration: none;
-    color: var(--back-purple);
-    background: var(--teal);
+header li a:hover{
+    color: var(--gray);
+    background-color: var(--back-purple);
     padding: .5rem;
     box-shadow: 5px 3px 5px var(--back-purple);
 }
+
+
 header h1{
     margin: 0;
     padding: 0;
@@ -140,23 +142,27 @@ h4{
 .works_page h3{
      margin: 1rem 0;
 }
-.works_page ul{
+#websites ul{
     font-family: "Hubot Sans", sans-serif;
     font-size: 20px;
     list-style-type: square;
     margin-top: 1rem;
-    line-height: 4rem;
     margin-left: 1.5rem;
+    line-height: 30px;
 }
 
-.works_page a {
+#websites li{
+  margin: 3rem 0;
+}
+
+#websites a, #premier a{
     box-shadow: inset 0 0 0 0 var(--dk-purple);
     color: var(--dk-purple);
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
-  a:hover {
+ #websites a:hover, #premier a:hover {
     box-shadow: inset 200px 0 0 0 var(--dk-purple);
     color: var(--cream);
   }
