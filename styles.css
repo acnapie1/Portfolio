@@ -261,10 +261,16 @@ h4{
   #art p{
     padding-bottom: 2rem;
   }
+
   img{
     max-width: 100%;
     height: auto;
   }
+
+  .about_page{
+    background-color: var(--cream);
+  }
+
   .about_page h2, .about_page h3, .about_page h4{
     text-align: center;
     padding: .5rem;
@@ -324,8 +330,11 @@ h4{
       }
   
   #awards{
-    background-color: var(--cream);
+
+    max-width: 900px;
+    margin: 2rem auto;
   }
+
   #awards ul{
     font-family: "Hubot Sans", sans-serif;
     font-size: 20px;
@@ -335,6 +344,11 @@ h4{
   }
   #awards li{
     padding-top: .5rem;
+  }
+
+  #awards img{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   @media screen and (min-width: 900px){
